@@ -1,4 +1,4 @@
-# Azure-K8s-SQL-Server-Container
+# Azure K8s - SQL Server Container
 This repository has guide to deploying SQL Server as a container to Azure Kubernetes Service.
 <p>In the new app. world, containers are playing a crucial part.  There is no more debate on whether or not to use containers. Containers and deeply engrossed in application development, deployment, and management in short ALM. The trend around application development these days has been more shifted on the microservice architecture model.</p>
 <p>I won't go in the debate of what a purist microservice architecture looks like, as I see people around the industry understand the microservice ideology differently. I don't think that's people's fault, I would look at it from a different lens that the microservice model is a recent introduction and will need time to digest by the wider software community.</p>
