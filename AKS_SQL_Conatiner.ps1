@@ -19,7 +19,7 @@ az aks get-credentials --resource-group  k8rg --name $myAKSCluster
 #*******************************************
 #******Generate secrets for SQL container***
 #*******************************************
-kubectl create secret generic mssql --from-literal=SA_PASSWORD="Redhat0!" -n $namespace
+kubectl create secret generic mssql --from-literal=SA_PASSWORD="**PWD**" -n $namespace
 kubectl get secrets -n $namespace
 #kubectl delete secret access-tokensecret "mssql"
 
